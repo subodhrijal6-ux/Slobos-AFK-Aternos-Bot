@@ -1,7 +1,4 @@
-"use strict"; const express = require('express');
-const app = express();
-app.get('/', (req, res) => res.send('Bot is awake!'));
-app.listen(3000, () => console.log('Web server is running.'));
+"use strict"; 
 
 
 const { addLog, getLogs } = require("./logger");
